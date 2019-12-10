@@ -1,3 +1,5 @@
+#!/bin/bash
+
 for R1 in *R1*
 do 
 R2=${R1//R1_001.fastq/R2_001.fastq}
